@@ -1,0 +1,1 @@
+lua6_x03 x004abcdc385 /tmp/claude-0/-home-claude/9f3dde4c-f353-52c4-b476-e410dd8d4e21/scratchpad/swmm6/eng/tests/unit/engine/data/legacy_small.inp: stopped after 1800 s; .out 27760953 of 155158965 bytes written (17.9%), the first 27760953 identical to the reference (all written bytes)

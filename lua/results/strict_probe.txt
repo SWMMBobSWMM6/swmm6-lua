@@ -1,0 +1,5 @@
+# lua/test/strict_probe.sh /dev/shm/lua6_eng/eeeb633/lua (the snapshot of commit eeeb633 the gate runs), 2026-11-19T22:43:28-05:00
+read, guard on:  status 134, strict globals: read of undeclared global 'THIS_GLOBAL_IS_NOT_DECLARED'
+read, guard off: status 0 (reference 0), report 6164 bytes, .out identical to the reference's
+write, guard on: status 134, strict globals: assignment to undeclared global 'NEW_GLOBAL_AFTER_LOAD'
+exit 0

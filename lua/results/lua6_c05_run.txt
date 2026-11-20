@@ -1,0 +1,4 @@
+(stopped 28 s in, first model, to run again from the start with a full time window)
+lua6_c05: resuming, 119 models already done, 238 to run
+lua6_c05: 357 models  PASS 356, CRASH+RPTDIFF+OUTDIFF 1
+  CRASH+RPTDIFF+OUTDIFF OWA_EXTRAN/extran3_RTC_Rule.inp  (103, 'len 333', 'len 103')

@@ -1,0 +1,1 @@
+lua6_c06: 77 models  PASS 77

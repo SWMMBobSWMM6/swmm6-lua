@@ -1,0 +1,47 @@
+# Lua port timing on 40 corpus decks (a random sample of the decks the C# gate ran in under 3 s: random.Random(7) over
+# gate/evidence/cs8.json), run one after another on 19 November 2026 by a development runner (deck copied to /dev/shm,
+# lua/runswmm6, outputs compared with gate/ref_outputs: all 40 byte-identical), against the C# gate (cs8.json), the Python
+# gate (gate/evidence/py2.json) and the Ruby gate (ruby/results/rb6_c*.json) on the same decks. Seconds, wall time per run.
+id                 Lua       C#   Python     Ruby  deck
+74fd0585b42c       5.9    2.140    6.462    9.843  EPA/HIGH_BC_CRITICAL_UPSTREAM_DOWNSTREAM_EXAMPLE_SW5.inp
+5139a3906236       0.5    0.548    0.418    1.150  EPA/Example_LID_RB.inp
+c8aa0f0e2ed5       1.0    0.652    0.942    1.918  LID/lid2_surface_high_veg.inp
+70afc94cb258       5.3    1.364    7.314   10.183  OWA_ROUTING/test5.inp
+852a02e15ae2       1.0    0.597    1.004    2.060  LID/w_wo_BC_2Subcatchments.inp
+8eeb8aafff0c      12.7    2.203   15.174   19.904  Hydrology/25_Subcatchments_CN_Infiltration.inp
+9b5e7099bc95       0.2    0.281    0.204    0.857  OWA_EXTRAN/EXAM1_SW5.inp
+bb6b715f4656       0.2    0.351        -    0.783  Hydrology/RUNOFF37_SW5.inp
+f0a360644a04      11.8    1.451   12.366   16.488  LID/lid2_continuous_30day.inp
+113778352217       4.1    1.826    5.622    7.624  OWA_ROUTING/test3.inp
+2e0ab32d3c3e       1.0    0.630        -    2.019  LID/lid_bc_toperv_zero.inp
+79f4cd3b534d      11.3    1.775   16.810   20.936  OWA_EXTRAN/EXAM60_SW5.INP
+57dd3f5f1c97       2.1    1.049    3.195    4.353  Hydraulics/extran1_power.inp
+132e6968aadf       1.3    0.628    1.724    2.661  OWA_EXTRAN/extran4_slot_zero_width.inp
+70583d7a8fd1       1.4    0.686    1.997    2.635  OWA_EXTRAN/EXAM2_WITH_TIDE_SW5.inp
+c9890a3625ad       2.0    0.914    2.211    3.604  Hydrology/LID_Master_Sustain.inp
+76bcb22cbb4a       1.2    0.662    2.078    2.626  Hydraulics/Example2.inp
+ba3de4a17559       0.4    0.498    0.314    1.012  Hydraulics/force_main_gravity_example.inp
+93546ff9fef8       1.0    0.626    1.259    1.950  Hydraulics/QUICKQ1.inp
+2652e2683d6b      11.5    1.972   22.005   21.724  EPA/High_Low_Flow.inp
+88c581fbbb99       0.9    0.590    0.935    1.894  LID/lid2_rb_large_barrel.inp
+63364ed4d4fe       0.2    0.319    0.144    0.790  Hydrology/3examples.inp
+1616ef3bdae2       2.8    1.118    3.548    5.088  LID/variations_on_EMC.inp
+d848bea99ad5       0.9    0.636    1.276    1.987  LID/lid2_allow_ponding.inp
+16b89daa0bc5       2.6    0.954    4.773    5.023  OWA_ROUTING/routing_outfall_tidal.inp
+f3b1bf3353cf       9.4    1.579   11.895   16.497  EPA/Normal_Flow_Froude_Number.inp
+fb78c55232d4      12.2    2.100   14.060   16.332  Hydrology/Pervious_Impervious_Watershed_Example.inp
+533a42eaee4f       1.2    0.754    1.819    2.645  Hydrology/Ejemplo EPA.inp
+5859b2460aad       2.5    0.947        -    4.538  OWA_ROUTING/routing_divider.inp
+2e2e5e3d773f      14.0    2.257   18.663   24.633  Hydraulics/PID extran_master_swmm34_example_SW5.inp
+3340b657fffa       0.6    0.573    0.637    1.566  OWA_EXTRAN/very_simple_cfs_flow_import_ICM_SWMM.inp
+f9b338e848ba       1.6    0.818    2.444    3.011  LID/lid_bc_drain_to_node.inp
+e71867633262       0.2    0.395        -    0.774  OWA_EXTRAN/extran4_slot_outlet_link.inp
+3320ce0d5147       0.9    0.620    1.003    1.903  LID/lid_pp_clog_regen.inp
+9fdd36262300       1.0    0.550    1.024    2.053  LID/lid2_gr_thick_soil.inp
+69aa966bd700       1.2    0.867    1.560    2.411  EPA/extran1_forcemain_dw.inp
+102539f1c867       2.1    0.953    3.238    4.119  Hydrology/9388021-BOD5.inp
+71f7ce11dc59       1.3    0.705        -    2.583  OWA_EXTRAN/extran4_slot.inp
+76c29506f8c5      34.2    2.378   32.305   47.289  EPA/simple_two_pump_model.inp
+de07a15bab73      34.3    2.265   43.018   60.065  Hydrology/Swmm5_Runoff.inp
+median Lua/Python 0.79 (35 decks), Lua/Ruby 0.51 (40), Lua/C# 1.98 (40)
+sums over the decks all four ran: Lua 194.8 s, Python 243.4 s, C# 39.2 s

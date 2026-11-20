@@ -1,0 +1,19 @@
+# lua/gate/rerun_build.sh 3b8e3ea /dev/shm/lua6_v, 2026-11-20T04:32:46-05:00
+== clean copy of 3b8e3ea in /dev/shm/lua6_v
+== the translator: tools/cs2x/build_lua.sh
+== the engine, regenerated from cs/gen into /dev/shm/lua6_v/regen and compared with lua/gen/engine.lua and lua/cs2lua_*.txt
+wrote engine.lua (168101 lines), 608 runtime names, 0 TODO kinds, 0 TODO sites
+lua/gen/engine.lua: 168101 lines, byte-identical to the commit
+lua/gen/literals.txt: 2002 lines, byte-identical to the commit
+lua/cs2lua_runtime.txt: 610 lines, byte-identical to the commit
+lua/cs2lua_todo.txt: 0 lines, byte-identical to the commit
+lua/cs2lua_stats.txt: 29 lines, byte-identical to the commit
+== the generated runtime files, written again by lua/make_primelist.sh and lua/make_glibm.sh
+lua/rt/primes.lua: 45 lines, byte-identical to the commit
+lua/rt/glibm.lua: 2029 lines, byte-identical to the commit
+lua/rt/glibm_rt.lua: 298 lines, byte-identical to the commit
+== the engine loads over the runtime (a missing input file: the engine is loaded, then the open fails)
+Error opening input file: InputReader: cannot open file '/dev/shm/lua6_v/no-such-model.inp'
+lupa 2.8, Lua 5.4
+exit 0
+trimmed 2026-11-20T04:33:43-05:00: everything but lua/ removed from /dev/shm/lua6_v (memory); lua/rt, lua/gen/engine.lua and the launchers are byte-identical to the gate's snapshot of eeeb633 (diff -r, cmp)

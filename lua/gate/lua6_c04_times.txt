@@ -1,0 +1,6 @@
+queued 2026-11-20T00:36:37-05:00 engine /dev/shm/lua6_eng/eeeb633/lua/runswmm6_saves.sh
+started 2026-11-20T00:36:37-05:00
+restart 2026-11-20T01:10:58-05:00: the container restarted while this run was going (11 models had finished, all PASS: lua/gate/lua6_c04_partial_before_restart.jsonl); /dev/shm, with the engine snapshot, was emptied; the chunk is run again from the start below
+queued 2026-11-20T01:11:26-05:00 engine /dev/shm/lua6_eng/eeeb633/lua/runswmm6_saves.sh
+started 2026-11-20T01:11:26-05:00
+ended 2026-11-20T02:13:53-05:00 rc=0

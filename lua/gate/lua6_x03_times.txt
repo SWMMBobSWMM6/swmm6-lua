@@ -1,0 +1,6 @@
+queued 2026-11-20T05:17:10-05:00 engine /dev/shm/lua6_eng/eeeb633/lua/runswmm6_saves.sh
+started 2026-11-20T05:27:19-05:00
+stopped 2026-11-20T05:27:31-05:00: the background command was stopped (its two chunks had waited 10 min for the lock behind another port's gate, and the second would have waited too); the lock had been granted at 05:27:19, seconds before, and gate.py and its first deck's engine, a few seconds in, ended with the command (no result recorded, no orphan in ps); the chunk is queued again below
+queued 2026-11-20T05:27:44-05:00 engine /dev/shm/lua6_eng/eeeb633/lua/runswmm6_saves.sh
+started 2026-11-20T05:37:52-05:00
+ended 2026-11-20T06:07:52-05:00 rc=0

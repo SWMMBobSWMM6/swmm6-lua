@@ -1,0 +1,4 @@
+#!/bin/sh
+# runswmm6 - the Lua SWMM6 engine's command line for the gate: lua/runswmm6 model.inp r.rpt [r.out]
+# Written by Claude (Anthropic) for Robert Dickinson's SWMM6 ports; see AI-USE.md and README.md.
+exec python3 "$(dirname "$0")/runswmm6.py" "$@"

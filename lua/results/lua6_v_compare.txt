@@ -1,0 +1,3 @@
+# lua/gate/compare_rerun.py, 2026-11-20T08:12:24-05:00: the independent rerun (the clean copy of 3b8e3ea in /dev/shm/lua6_v, lua/results/lua6_v_build.txt) against the first gate
+lua6_v_*: 102 models, 102 with the first run's status, exit code, .rpt hash and .out hash, 0 different
+lua6_vx*: 40 models, 40 with the first run's status, exit code, .rpt hash and .out hash, 0 different

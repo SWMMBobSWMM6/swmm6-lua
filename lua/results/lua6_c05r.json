@@ -1,0 +1,14 @@
+[
+ {
+  "id": "9344541a41a5",
+  "path": "/home/claude/swmmbobswmm6/1729-swmm5-models-2030/OWA_EXTRAN/extran3_RTC_Rule.inp",
+  "status": "PASS",
+  "sec": 1.685,
+  "rc": 0,
+  "first_rpt_diff": null,
+  "stderr": "",
+  "ref_rc": 0,
+  "rpt_sha256": "4492127129f71ae631c92600ffe9cc2de2e6b7afa4119a1dcec3fa335984f145",
+  "out_sha256": "8cd2a8c640a9209bd091cb5c02e606c60f8e4db75700ef40cd8002a83e56779e"
+ }
+]

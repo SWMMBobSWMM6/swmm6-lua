@@ -1,0 +1,98 @@
+[
+{
+"id": "a7490e1eaa61",
+"path": "/home/claude/swmmbobswmm6/1729-swmm5-models-2030/Hydraulics/diversion_weir_network.inp",
+"status": "PASS",
+"sec": 15.303,
+"rc": 0,
+"first_rpt_diff": null,
+"stderr": "",
+"ref_rc": 0,
+"rpt_sha256": "b28edc3daa5db3f40b2ed7bab4168947a7210df5039f35a4e93a15bdd137344c",
+"out_sha256": "d4995dfa75dbdba2c851e2c82eda91b1f276f635b98c529918990e675e570258"
+},
+{
+"id": "10245dda6972",
+"path": "/home/claude/swmmbobswmm6/1729-swmm5-models-2030/Hydrology/292_Storage_Nodes_200_Subs.inp",
+"status": "PASS",
+"sec": 535.101,
+"rc": 0,
+"first_rpt_diff": null,
+"stderr": "",
+"ref_rc": 0,
+"rpt_sha256": "319b21de5dc7dd26c181970659d516438ab1e1170a69be3df3eeb04bc4c3862f",
+"out_sha256": "292b276ff32df32a5a463e4ace307252ae03e5139baff4bc2f78a50baca68e81"
+},
+{
+"id": "ad42c7f7c26a",
+"path": "/home/claude/swmmbobswmm6/1729-swmm5-models-2030/Hydrology/SUDS_SWMM5_Example4.inp",
+"status": "PASS",
+"sec": 3.837,
+"rc": 0,
+"first_rpt_diff": null,
+"stderr": "",
+"ref_rc": 0,
+"rpt_sha256": "3a124369138ca4cdd96fc6c6491022ace52ab04eb9db366c693b2dc9081f682e",
+"out_sha256": "b288c27d0adbd9f55dbf34ccdf1e4655920e7c48015c330cf6cf14cd13db9550"
+},
+{
+"id": "0046cb3452b3",
+"path": "/home/claude/swmmbobswmm6/1729-swmm5-models-2030/Hydrology/short_trap_SW5.inp",
+"status": "PASS",
+"sec": 719.402,
+"rc": 0,
+"first_rpt_diff": null,
+"stderr": "",
+"ref_rc": 0,
+"rpt_sha256": "4b8b3c4ff5de8ad17c5ea8c9d5c0f2092198408f5a02795feaebf38eed4ea646",
+"out_sha256": "b1d3b2ad1d3d4ac59a19731f021f84bc78eff2ce32c6d586d3a9115fb0dbd7ca"
+},
+{
+"id": "ee1d82e2fc5f",
+"path": "/home/claude/swmmbobswmm6/1729-swmm5-models-2030/EPA/attenuation_steady_flow.inp",
+"status": "PASS",
+"sec": 242.336,
+"rc": 0,
+"first_rpt_diff": null,
+"stderr": "",
+"ref_rc": 0,
+"rpt_sha256": "fb29cb3ec369b0d28dda1958ef5575f6baf341bbb4880bacd98a3c2500b0af72",
+"out_sha256": "f18ef035702b84a018736d603a9a36c398549884e38e801ac6019da470372451"
+},
+{
+"id": "54c7f7b0dcdb",
+"path": "/home/claude/swmmbobswmm6/1729-swmm5-models-2030/EPA/10000FootSurchargeDepth.inp",
+"status": "PASS",
+"sec": 450.817,
+"rc": 0,
+"first_rpt_diff": null,
+"stderr": "",
+"ref_rc": 0,
+"rpt_sha256": "8861ba2404d8634e26ef09b10cabc258943eb744293bf8e391ac6832fa3c1b33",
+"out_sha256": "a5be4cb0ec3ce8ac2e34e7878727e665b7e6d0a703e57d48d6932d78a028e277"
+},
+{
+"id": "36d039d18ca7",
+"path": "/home/claude/swmmbobswmm6/1729-swmm5-models-2030/Hydrology/22_Subs.inp",
+"status": "PASS",
+"sec": 219.27,
+"rc": 0,
+"first_rpt_diff": null,
+"stderr": "",
+"ref_rc": 0,
+"rpt_sha256": "b49b4c2583d22de3424f1c31f698908c9f9656a276a38c1ca85e8939221d7f41",
+"out_sha256": "07904706b4058aa52b66e566317cb80d295f3ccbbcde009fdacaaf1d4bcffece"
+},
+{
+"id": "17bc23add21e",
+"path": "/home/claude/swmmbobswmm6/1729-swmm5-models-2030/Hydrology/CN_Horton.inp",
+"status": "PASS",
+"sec": 392.355,
+"rc": 0,
+"first_rpt_diff": null,
+"stderr": "",
+"ref_rc": 0,
+"rpt_sha256": "2ece79f30e4e6bd9f736f18381e6e9ebc6b44104a00841652e43842b8a7783db",
+"out_sha256": "696c114805a66c8d1b3fd3b0e0cea361316c071eb9c147ed956ec04c0b93a6f3"
+}
+]

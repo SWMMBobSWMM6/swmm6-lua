@@ -1,0 +1,74 @@
+[
+ {
+  "id": "x494e36b42fc",
+  "path": "/tmp/claude-0/-home-claude/9f3dde4c-f353-52c4-b476-e410dd8d4e21/scratchpad/swmm6/eng/tests/parity/corpus/decks/sdm_fv_o1.inp",
+  "status": "PASS",
+  "sec": 520.747,
+  "rc": 0,
+  "first_rpt_diff": null,
+  "stderr": "",
+  "ref_rc": 0,
+  "rpt_sha256": "c287e07e133588d546cca6c778bd36b841f0c712c9a43d0fd42621cf736fd946",
+  "out_sha256": "09459c126eb0154bfd5bd5607f8ebd476e7061add3c881d8a706726a2f920968"
+ },
+ {
+  "id": "xa309cbb302c",
+  "path": "/tmp/claude-0/-home-claude/9f3dde4c-f353-52c4-b476-e410dd8d4e21/scratchpad/swmm6/eng/tests/parity/corpus/decks/sdm_fv_o2.inp",
+  "status": "PASS",
+  "sec": 523.062,
+  "rc": 0,
+  "first_rpt_diff": null,
+  "stderr": "",
+  "ref_rc": 0,
+  "rpt_sha256": "4c0c5b93b7e846a3ff11dddb507124e0621ac9c50c4d693d7dfb5f53bbbfce9f",
+  "out_sha256": "3943f81ddf0730b18d97fda9a1865866cc0fdfc531dba54dc90f7e77126b7402"
+ },
+ {
+  "id": "x7d90f63e065",
+  "path": "/tmp/claude-0/-home-claude/9f3dde4c-f353-52c4-b476-e410dd8d4e21/scratchpad/swmm6/eng/tests/parity/corpus/decks/sdm_fv_o2_superbee.inp",
+  "status": "PASS",
+  "sec": 552.358,
+  "rc": 0,
+  "first_rpt_diff": null,
+  "stderr": "",
+  "ref_rc": 0,
+  "rpt_sha256": "068418f79e486271ba4b0c2a679aeaa3cd31cd23fc3c5fb2d3e1c622b36eae18",
+  "out_sha256": "eb08ea76c01056a3753f5496e16c606e3277954915adfbdcd1910effde825217"
+ },
+ {
+  "id": "x5498c7d918b",
+  "path": "/tmp/claude-0/-home-claude/9f3dde4c-f353-52c4-b476-e410dd8d4e21/scratchpad/swmm6/eng/tests/parity/slot_program/decks/fill_drain_cycle.inp",
+  "status": "PASS",
+  "sec": 31.483,
+  "rc": 0,
+  "first_rpt_diff": null,
+  "stderr": "",
+  "ref_rc": 0,
+  "rpt_sha256": "0ef4c5cbfca930b0014b5400b145653aaa4ac275aea9e238dfb004a64e9bcd0a",
+  "out_sha256": "0a6df852268ece9715f518c81ecd763a48b4dc365676ae203d61b8573329eb2b"
+ },
+ {
+  "id": "x36bf1e43c13",
+  "path": "/tmp/claude-0/-home-claude/9f3dde4c-f353-52c4-b476-e410dd8d4e21/scratchpad/swmm6/eng/tests/unit/engine/data/lid_partition_backwater.inp",
+  "status": "PASS",
+  "sec": 224.36,
+  "rc": 0,
+  "first_rpt_diff": null,
+  "stderr": "",
+  "ref_rc": 0,
+  "rpt_sha256": "28c2776b15fdd42a7950daecffadbe9873aa5710e081023a3ebb394c734f0bf5",
+  "out_sha256": "c386155f3c044084912688e2f6c5a4728c341097f1b7bf82ea5566a409b0c01c"
+ },
+ {
+  "id": "xac6f358775d",
+  "path": "/tmp/claude-0/-home-claude/9f3dde4c-f353-52c4-b476-e410dd8d4e21/scratchpad/swmm6/eng/tests/unit/engine/data/lid_partition_free.inp",
+  "status": "PASS",
+  "sec": 225.808,
+  "rc": 0,
+  "first_rpt_diff": null,
+  "stderr": "",
+  "ref_rc": 0,
+  "rpt_sha256": "98e28ac22f458b2c30a14c5467693d30defb822a2f30d6965753f634ea603790",
+  "out_sha256": "ee134189c4566c6270019b8875b5d1434855c08a7cf8533b5d99ab9066a489b4"
+ }
+]

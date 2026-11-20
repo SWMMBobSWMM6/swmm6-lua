@@ -1,0 +1,2 @@
+(the container restarted during this run; it is run again from the start)
+lua6_c04: 21 models  PASS 21

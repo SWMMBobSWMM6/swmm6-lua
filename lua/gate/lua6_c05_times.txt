@@ -1,0 +1,13 @@
+queued 2026-11-20T02:13:53-05:00 engine /dev/shm/lua6_eng/eeeb633/lua/runswmm6_saves.sh
+started 2026-11-20T02:13:53-05:00
+ended 2026-11-20T02:14:21-05:00 rc=143
+stopped 2026-11-20T02:14:30-05:00: stopped by its own pid (gate.py and the engine, 28 s in, first model) because the background command it ran in, after lua6_c04, had less than an hour of its two-hour limit left; run again from the start below in a command of its own
+queued 2026-11-20T02:14:36-05:00 engine /dev/shm/lua6_eng/eeeb633/lua/runswmm6_saves.sh
+started 2026-11-20T02:14:36-05:00
+ended 2026-11-20T02:29:34-05:00 rc=137
+killed 2026-11-20T02:30:11-05:00: at 02:29:34 the shared memory cgroup (6.1 GB, all agents' commands) ran out while another agent's compiler held 5.6 GB; the OOM killer killed it and then this run's gate.py (rc=137 above) after 119 models, all PASS; the run is resumed below (gate.py --resume: the 119 results kept, the rest run)
+queued 2026-11-20T02:30:21-05:00 engine /dev/shm/lua6_eng/eeeb633/lua/runswmm6_saves.sh
+started 2026-11-20T02:30:21-05:00
+ended 2026-11-20T03:06:43-05:00 rc=0
+oom 2026-11-20T03:06:58-05:00: one model of this run, 9344541a41a5 OWA_EXTRAN/extran3_RTC_Rule.inp, was killed at about 02:33 by the OOM killer of the shared memory cgroup (its engine, python3 pid 11778, killed after another agent's compiler; dmesg), and is recorded above as CRASH+RPTDIFF+OUTDIFF rc=137 after 0.852 s; it is run again on its own, under the lock, as lua6_c05r (lua/gate/lua6_c05r_times.txt), and the chunk is counted by that rerun
+rerun 2026-11-20T03:07:04-05:00: lua6_c05r, 9344541a41a5 PASS (byte-identical .rpt and .out, rc 0)

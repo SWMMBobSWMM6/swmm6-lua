@@ -1,0 +1,62 @@
+[
+ {
+  "id": "a13e9d5589fb",
+  "path": "/home/claude/swmmbobswmm6/1729-swmm5-models-2030/EPA/attenuation_DW_High_CE.inp",
+  "status": "PASS",
+  "sec": 716.767,
+  "rc": 0,
+  "first_rpt_diff": null,
+  "stderr": "",
+  "ref_rc": 0,
+  "rpt_sha256": "15163716b7cbf9f7dc99d04531e9c7081f2cb8125562b0107e09f81b2a59dd80",
+  "out_sha256": "cdbee07e807f96faacfcd2f461b4d8ba2a86d202adaa9e7a3c0f599385a22e62"
+ },
+ {
+  "id": "4382da88dc6a",
+  "path": "/home/claude/swmmbobswmm6/1729-swmm5-models-2030/EPA/siphon_larger_SW5.inp",
+  "status": "PASS",
+  "sec": 18.243,
+  "rc": 0,
+  "first_rpt_diff": null,
+  "stderr": "",
+  "ref_rc": 0,
+  "rpt_sha256": "d685ba54aee3abc3ba49d144228d17e1f3528571def824d0be7061f72358aa96",
+  "out_sha256": "46a0e2b3adabd12ae36eaaa0a48ed955af3f1d65e10e0722173be1f74c227a12"
+ },
+ {
+  "id": "2bd2002b905c",
+  "path": "/home/claude/swmmbobswmm6/1729-swmm5-models-2030/Hydrology/17_Sub_90_Link_USA_Units.inp",
+  "status": "PASS",
+  "sec": 753.226,
+  "rc": 0,
+  "first_rpt_diff": null,
+  "stderr": "",
+  "ref_rc": 0,
+  "rpt_sha256": "16ba933c2ac6d40ba91ac4b9aee2e12a9beb2bcf7bdc038c09b39793f5ca8786",
+  "out_sha256": "74f6c18b306ba1ce145e7019b1a31590ff2056ebcf647712387c5aec7e529a9d"
+ },
+ {
+  "id": "60dda48e3fd9",
+  "path": "/home/claude/swmmbobswmm6/1729-swmm5-models-2030/Hydrology/27_Subs_Horton.inp",
+  "status": "PASS",
+  "sec": 391.738,
+  "rc": 0,
+  "first_rpt_diff": null,
+  "stderr": "",
+  "ref_rc": 0,
+  "rpt_sha256": "0adf9af1a869925502b5185e6b6bf89c0cdc1e95910e37bcb45b784918b6437b",
+  "out_sha256": "63d5c0e5aebc24c2ef29afb57c0e52aa541e86b79789765373e02191ead16706"
+ },
+ {
+  "id": "124041cdadc1",
+  "path": "/home/claude/swmmbobswmm6/1729-swmm5-models-2030/Hydrology/rtk_long_r1_only.inp",
+  "status": "PASS",
+  "sec": 197.381,
+  "rc": 0,
+  "first_rpt_diff": null,
+  "stderr": "",
+  "ref_rc": 0,
+  "rpt_sha256": "ba2b2be5e717478dac191ec1a3987ce67688bf20da7088a2ba85452ac6a400ff",
+  "out_sha256": "f30376dd5f425b96c55141bcd9034335e1036811dd944cd5bc90e1756851ae81"
+ }
+]

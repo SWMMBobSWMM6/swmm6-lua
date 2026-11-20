@@ -1,0 +1,29 @@
+   7446  non-virtual method called as a function
+   4789  signed index used as it is
+   3284  inlined call
+   1105  ptr over array element
+   1051  ptr element
+    856  deref element
+    832  range for
+    642  inline max
+    566  lambda with statements
+    438  object initializer
+    404  expression lambda
+    361  inline min
+    238  field named like a method (renamed)
+    152  conditional that may be false or nil (hoisted)
+     83  conditional with statements
+     79  switch with a goto to its end
+     78  Conv.D2I
+     75  arguments spilled for order
+     57  binary operand spilled for order
+     56  inline clamp
+     35  base method called directly
+     34  logical with statements
+     30  assignment as a value (hoisted)
+     29  inlined call as a statement (dropped: pure)
+     28  using declaration
+     25  array initializer element by element
+      7  goto
+      4  locals predeclared for a label
+      1  hidden field (renamed) msg
